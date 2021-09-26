@@ -1,8 +1,10 @@
+/* setting card-background */
 .card-img{
     background-image: url('../../images/card-bg.jpg');
     background-size: cover;
     background-position: center;
 }
+/* star colors */
 .star{
     color: gold;
 }

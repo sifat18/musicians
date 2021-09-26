@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 const Header = () => {
     return (
+        // displaying header text
         <div className='header'>
 
             <h2 className='toptext'>Born to Rock Force to Work.</h2>
