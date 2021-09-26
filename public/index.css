@@ -1,0 +1,9 @@
+/* setting background image */
+
+/* body style */
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('./bg.png') no-repeat center center fixed;;
+  background-size: cover;
+  height: 100vh;
+  
+}

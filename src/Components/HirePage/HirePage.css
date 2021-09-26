@@ -1,0 +1,19 @@
+.hirepage{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.singers{
+    margin: 50px 5px 20px 30px;
+}
+.booklist{
+    margin: 50px 0px 20px 20px;
+    text-align: center;
+
+}
+.bg{
+    background-color: rgba(0, 0 , 0, 0.888);
+    height: 100px;
+    padding-top: 20px;
+    width: 200px;
+}

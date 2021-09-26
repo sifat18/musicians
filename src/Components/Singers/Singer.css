@@ -1,0 +1,8 @@
+.card-img{
+    background-image: url('../../images/card-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.star{
+    color: gold;
+}

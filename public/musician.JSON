@@ -1,0 +1,185 @@
+[    {
+        "key": "B002RL8IYK",
+        "category": "English",
+        "name": "Adam Levine",
+        "hiringCost": 50500,
+        "age": 36,
+        "albums": 36,
+        "star": 4.5,
+        "fanbase": 3245,
+        "img": "https://m.media-amazon.com/images/M/MV5BMjI4NjU4MDEwN15BMl5BanBnXkFtZTcwNTQzNDMwNw@@._V1_UY1200_CR84,0,630,1200_AL_.jpg",
+        "language":"English"
+    },
+    {
+        "key": "B01LD4MGY4",
+        "category": "English",
+        "name": "Britney spears",
+        "hiringCost": 48500,
+        "age": 34,
+        "albums": 21,
+        "star": 2.5,
+        "fanbase": 4232,
+        "img": "data:image/jpeg;base64,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",
+        "language":"English"
+    },
+    {
+        "key": "B01LZ2WZGH",
+        "category": "Hindi",
+        "name": "Atif Aslam",
+        "hiringCost": 39400,
+        "age": 31,
+        "albums": 15,
+        "star": 3.8,
+        "fanbase": 3899,
+        "img": "data:image/jpeg;base64,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",
+        "language":"Urdu, Hindi"
+    },
+    {
+        "key": "B01M18UZF5",
+        "category": "Hindi",
+        "name": "Shreya Ghosal",
+        "hiringCost": 40000,
+        "age": 29,
+        "albums": 25,
+        "star": 4.5,
+        "fanbase": 4399,
+        "img": "https://images.indulgexpress.com/uploads/user/imagelibrary/2021/2/19/original/SingerShreyaGhoshalspeaksaboutherlatestsongAnganaMoreythatstoppingt.jpg?w=400&dpr=2.6",
+        "language":"Hindi"
+    },
+    {
+        "key": "B01K1IO3QW",
+        "category": "Bangla",
+        "name": "Tahsan Khan",
+        "hiringCost": 30200,
+        "age": 33,
+        "albums": 10,
+        "star": 2,
+        "fanbase": 3522,
+        "img": "https://pbs.twimg.com/profile_images/774506720903114752/q9Vp_FTR_400x400.jpg",
+        "language":"Bangla"
+    },
+    {
+        "key": "B01DBGVB7K",
+        "category": "Bangla",
+        "name": "Sabina Yasmin",
+        "hiringCost": 32200,
+        "age": 40,
+        "albums": 10,
+        "star": 2.5,
+        "fanbase": 2522,
+        "img": "https://www.daily-bangladesh.com/media/imgAll/2019September/sabinaeyasmmin1909040616-1909040701.jpg",
+        "language":"Bangla"
+    },
+    
+    
+    {
+        "key": "B015WXL0C6",
+        "category": "English",
+        "name": "Ariana Grande",
+        "hiringCost": 67000,
+        "age": 30,
+        "albums": 22,
+        "star": 4.2,
+        "fanbase": 3722,
+        "img": "https://assets.teenvogue.com/photos/55828b0c941a95530d042692/master/w_420,h_630,c_limit/beauty-celebrity-beauty-2014-01-ariana-grande-timeline-13.jpg",
+        "language":"English"
+        
+    },
+    {
+        "key": "B06Y4GZS9C",
+        "category": "Bangla",
+        "name": "Arnob",
+        "hiringCost": 30000,
+        "age": 33,
+        "albums": 19,
+        "star": 3.5,
+        "fanbase": 2372,
+        "img": "https://i.pinimg.com/originals/8e/b2/c8/8eb2c8b2aeb8dde98ba88356203b4d20.jpg",
+        "language":"Bangla"
+    },
+    {
+        "key": "B06XJJG4PD",
+        "category": "English",
+        "name": "Billie Eilish",
+       "hiringCost": 25777,
+        "age": 25,
+        "albums": 8,
+        "star": 3,
+        "fanbase": 2972,
+        "img": "https://i.pinimg.com/736x/fb/00/39/fb003968a2bb949b81ab609c100e68ed.jpg",
+        "language":"English"
+    },
+    {
+        "key": "B01NBE6Y5D",
+        "category": "Bangla",
+        "name": "Habib Wahid",
+        "hiringCost": 40777,
+        "age": 29,
+        "albums": 12,
+        "star": 3.2,
+        "fanbase": 2772,
+        "img": "https://yt3.ggpht.com/ytc/AKedOLT5Y4QxvHam4uSFXFyljPXeVXsEXBEKLU7qAO09=s900-c-k-c0x00ffffff-no-rj",
+        "language":"Bangla"
+    
+    },
+    {
+        "key": "B01J42JPJG",
+        "category": "Hindi",
+        "name": "Lata Mangeshkar",
+        "hiringCost": 44777,
+        "age": 50,
+        "albums": 27,
+        "star": 4,
+        "fanbase": 4642,
+        "img": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2017/09/lata-mangeshkar-1506590437.jpg",
+        "language":"Hindi"
+    },
+    {
+        "key": "B01F4ZG68A",
+        "category": "Hindi",
+        "name": "Arman Malik",
+        "hiringCost": 42377,
+        "age": 32,
+        "albums": 33,
+        "star": 4.5,
+        "fanbase": 6642,
+        "img": "https://www.iwmbuzz.com/wp-content/uploads/2019/09/just-had-a-heartbreak-armaan-maliks-tootey-khaab-is-the-song-for-you-920x518.jpg",
+        "language":"Hindi"
+    },
+    {
+        "key": "B01D27ERMO",
+        "category": "Hindi",
+        "name": "Arjit Singh",
+        "hiringCost": 3377,
+        "age": 27,
+        "albums": 33,
+        "star": 3.7,
+        "fanbase": 3142,
+        "img": "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/05/06/download-2021-05-06t161334934-982994-1620297758.png?itok=ItNkzjBW",
+        "language":"Hindi"
+    },
+    {
+        "key": "B06X6J2RLY",
+        "category": "English",
+        "name": "Justin Beiber",
+      "hiringCost": 28239,
+        "age": 28,
+        "albums": 21,
+        "star": 2.7,
+        "fanbase": 1542,
+        "img": "https://i.pinimg.com/originals/80/0f/4c/800f4c4e1176893f5db91c7eccf88c7d.jpg",
+        "language":"English"
+    },
+    {
+        "key": "B01N5G5PG2",
+        "category": "English",
+        "name": "Dua Lipa",
+          "hiringCost": 78239,
+        "age": 26,
+        "albums": 17,
+        "star": 4.7,
+        "fanbase": 6542,
+        "img": "https://www.somagnews.com/wp-content/uploads/2020/03/42-2-e1584223729582.jpg",
+        "language":"English"
+    }
+]
