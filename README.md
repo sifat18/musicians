@@ -1,7 +1,7 @@
 # Welcome to "Musicals" React Project
 
 ## Looking for Hiring Musicians? Then You are the right place!
-visit this page and hire your favorite musicians!!! [Musicals](https://app.netlify.com/sites/quizzical-mirzakhani-8a9829/overview)
+visit this page and hire your favorite musicians!!! [Musicals](https://quizzical-mirzakhani-8a9829.netlify.app/)
 
 
 
