@@ -13,6 +13,7 @@ const HirePage = () => {
     // adding to list event
     const handleclick = (e, id) => {
         const musician = singers.find(singer => singer.key === id)
+        musician.disabled = true;
         const list = [...booked, musician];
         setbooked(list);
         console.log(e);
@@ -35,11 +36,12 @@ const HirePage = () => {
                 </div></div>
             {/* booked musicians */}
             <div className='booklist'>
-                <div className=' w-50 ms-5 mb-5 bg'>
-                    <p className='fw-bold text-success'>Total Booked: {booked.length}</p>
-                    <p className='fw-bold text-success'>Total Cost: $ {compute()}</p>
+                <div className=' w-75  ms-5 mb-5 bg'>
+                    <p className='fw-bold border-bottom mx-4 pb-1 text-success'>Total Booked: {booked.length}</p>
+                    <p className='fw-bold border-bottom mx-4 mb-5 pb-1 text-success'>Total Cost: $ {compute()}</p>
+                    {booked.map(list => <Booked key={list.key} hired={list} ></Booked>)}
+
                 </div>
-                {booked.map(list => <Booked key={list.key} hired={list} ></Booked>)}
             </div>
 
         </div>

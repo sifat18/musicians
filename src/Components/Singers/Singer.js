@@ -10,21 +10,23 @@ const Singer = (props) => {
     // setting icon in a variable
     const element = <FontAwesomeIcon icon={faUserPlus} />
     const { key, category, star, name, hiringCost, age, fanbase, img, albums } = props.musician
+    const disable = !props.musician.disabled ? false : props.musician.disabled;
+
     return (
         <div className="col">
             <div className="card  card-img">
-                <img src={img} className="px-5 card-img-top rounded-circle mt-3" alt="100x100" height='250' width='50%' />
+                <img src={img} className="px-5 mx-5 w-75 card-img-top rounded-circle mt-3" alt="100x100" height='150' />
                 {/* diplaying data */}
                 <div className="card-body">
-                    <h5 className="card-title text-white fw-bold">NAME: {name}</h5>
-                    <p className="card-text text-white"><span className="fw-bold">Age:</span> {age}</p>
-                    <p className="card-text text-white"><span className="fw-bold">Category:</span> {category}</p>
-                    <p className="card-text text-white"><span className="fw-bold">Hiring Fee:</span> ${hiringCost}</p>
-                    <p className="card-text text-white"><span className="fw-bold">Fanbase:</span> {fanbase}</p>
-                    <p className="card-text text-white"><span className="fw-bold">Albums:</span> {albums}</p>
-                    <p className='star'><span> Rating:</span> <Rating initialRating={star} emptySymbol='far fa-star' fullSymbol='fas fa-star' readonly></Rating></p>
+                    <h5 className="card-title text-center pb-2 text-white fw-bold border-bottom">NAME: {name}</h5>
+                    <p className="card-text text-center  pb-2 text-white border-bottom"><span className="fw-bold fs-5">AGE: {age}</span></p>
+                    <p className="card-text text-center  pb-2 text-white border-bottom"><span className="fw-bold fs-5">CATEGORY: {category}</span></p>
+                    <p className="card-text text-center  pb-2 text-white border-bottom"><span className="fw-bold fs-5">APPOINTMENT-FEE: ${hiringCost}</span></p>
+                    <p className="card-text text-center  pb-2 text-white border-bottom"><span className="fw-bold fs-5">FANS: {fanbase}</span></p>
+                    <p className="card-text text-center  pb-2 text-white border-bottom"><span className="fw-bold fs-5">ALBUMS: {albums}</span></p>
+                    <p className='star border-bottom text-center'><span> Rating:</span> <Rating initialRating={star} emptySymbol='far fa-star' fullSymbol='fas fa-star' readonly></Rating></p>
                     <div className='text-center'>
-                        <button className='btn btn-warning fw-bold ' onClick={(e) => props.click(e, key)}>{element}Add to List</button>
+                        <button className='btn btn-warning fw-bold ' disabled={disable} onClick={(e) => props.click(e, key)}>{element}Add to List</button>
                     </div></div>
             </div>
         </div>
