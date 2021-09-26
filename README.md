@@ -1,3 +1,17 @@
+# Welcome to "Musicals" React Project
+
+## Looking for Hiring Musicians? Then You are the right place!
+visit this page and hire your favorite musicians!!! [Musicals](https://app.netlify.com/sites/quizzical-mirzakhani-8a9829/overview)
+
+
+
+## What Functionalities you will get?
+- A List of Singers available to be hired by you. You can view details like **name**, **picture**,**rating**,**there hiringPrice**...etc
+- You can see total amount that you will be paying 
+- A list of hired musicians is displayed if you booked any
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
